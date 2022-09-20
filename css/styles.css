@@ -1,0 +1,412 @@
+:root {
+  --maincolor: #9c33be;
+  --seccolor: #f3e1f9;
+  --icncolor: #69666a;
+}
+
+*,::before,::after{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+.buttnas{
+
+  color: white;
+  text-decoration: none;
+}
+.buttnas:hover{
+  color: var(--maincolor);
+}
+
+.col-1{
+  background: white;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+}
+.col-11{
+  background: #F6F6F6;
+  padding: 46px 46px;
+}
+
+.midcontainer{
+  padding: 0px 40px;
+}
+
+.imagina:hover{
+  background-color: rgba(164, 30, 175, 0.3);
+}
+.col-4{
+
+}
+b{
+  color: var(--maincolor);
+}
+
+.intro{
+  text-align: center;
+  padding-top: 4px;
+}
+
+.heroarea{
+  height: 20rem;
+  position: relative;
+}
+
+.heroimage {
+  height: 90%;
+  border-radius: 32px;
+  width: 100%;
+  position: absolute;
+  z-index: 0;
+  background-size: cover;
+  background-image: linear-gradient(45deg, rgba(0, 0, 0, 0.48), rgba(215, 78, 241, 0.4)), url("../imgs/lol.jpeg");
+}
+.heroimage:hover{
+
+}
+
+
+
+
+
+
+.herocontent{
+  height: 100%;
+  z-index: 1;
+  padding: 36px;
+}
+.badgeholder{
+  padding: 20px;
+}
+.badgemain{
+  position: absolute;
+  z-index: 1;
+  color: var(--maincolor);
+  font-size: 10px;
+  padding: 6px 12px;
+  background: white !important;
+  border-radius: 22px;
+  text-align: center;
+}
+.herotitle{
+  padding-top: 2rem;
+  color: white;
+}
+
+
+.herodis{
+  color: white;
+  width: 50%;
+  margin-bottom: 1rem;
+}
+
+.recocontainer{
+background: white;
+padding: 2rem;
+border-radius: 2rem;
+}
+.recotitle{
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+.imgreco{
+  width: 5rem;
+  height: 5rem;
+  border-radius: 1rem;
+  object-fit: cover;
+}
+.pinfo {
+  font-size: 0.7rem;
+  color: grey;
+}
+.staro{
+
+  display: flex;
+  left: 0px;
+}
+.starix{
+  font-size: 1rem;
+  color: orange;
+}
+.starix:hover{
+  font-size: 1rem;
+  color: Black;
+}
+.spacing{
+  height: 1rem;
+}
+.spacing2{
+  height: 2rem;
+}
+.buttonrec{
+  margin-top: 1rem;
+  border-radius: 1rem;
+  border: 1px solid var(--maincolor);
+  padding: 0.2rem;
+  text-align: center;
+  height: 2rem;
+}
+.buttonrec:hover{
+  background-color: var(--maincolor);
+  color: white;
+}
+.streamerpic{
+  position: relative;
+}
+.streamerpics{
+  border: 2px solid var(--maincolor);
+  width: 3rem;
+  height: 3rem;
+  border-radius: 1rem;
+  object-fit: cover;
+  z-index: 0;
+}
+.featured{
+  padding: 1.5rem;
+}
+.livenow{
+  color: var(--maincolor);
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  z-index: 1;
+}
+.streamingcont{
+  background: white;
+  border-radius: 2rem;
+}
+.streaming{
+  padding: 1.5rem;
+}
+.caro1{
+  width: 100%;
+  position: relative;
+  height: 17rem;
+  background-color: red;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+
+.carouseltitle{
+  margin-bottom: 2rem;
+}
+
+.imgcaro{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  object-fit: cover;
+  border-radius: 20px;
+}
+.imgcaro:hover {
+  background: rgba(167, 12, 183, 0.28);
+}
+.caroinfo{
+  position: absolute;
+  bottom: 0px;
+  z-index: 1;
+  border-radius: 0px 0px 20px 20px;
+  width: 100%;
+  height: fit-content;
+}
+
+.imagina{
+  height: 100%;
+  object-fit: cover;
+  width: 100%;
+  border-radius: 20px;
+}
+
+.carotitle{
+  color: white;
+}
+
+.infoholder{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  backdrop-filter: blur(9px);
+  -webkit-backdrop-filter: blur(9px);
+  background-color: rgba(0,0,0,0.2);
+  padding: 1rem;
+  border-radius: 20px;
+}
+.downloadholder{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.downloadicon{
+  padding-top: 0.5rem;
+  color: white;
+}
+.featimg{
+  width: 100%;
+  height: 10rem;
+  object-fit: cover;
+  border-radius: 1rem;
+  margin-bottom: 2rem;
+}
+.downloadicon2{
+  padding-top: 0.5rem;
+  color: var(--maincolor);
+}
+.pwhite{
+  color: white;
+      font-size: 0.8rem;
+}
+.starss{
+  color: yellow;
+  height: 1rem;
+  width: 1rem;
+}
+.rating{
+  display: flex;
+}
+
+.btn-primary{
+  display: block;
+  color: white;
+  font-size: 18px;
+    padding: 10px 29px;
+    background: var(--maincolor);
+    border-radius: 42px;
+      width: 19%;
+      border: none;
+}
+.btn-primary:hover{
+  color: var(--maincolor);
+  background: white;
+}
+
+.heroarea {
+  position: relative;
+  width: 100%;
+}
+
+.pdp{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+ p{
+   margin-bottom: 0;
+ }
+.notif{
+  display: flex;
+  background: white;
+  padding: 8px 8px;
+  border-radius: 10px;
+}
+.redot {
+  position: absolute;
+  background: red;
+  width: 6px;
+  height: 6px;
+  border-radius: 10px;
+}
+.redot2 {
+  position: absolute;
+  background: red;
+  width: 6px;
+  height: 6px;
+  border-radius: 10px;
+  top: -1px;
+  right: -2px;
+}
+.menu{
+  display: flex;
+  background-color: #F6F6F6;
+}
+.sidebar{
+  position: fixed;
+}
+.menele{
+  display: inline-block;
+  align-items: center;
+  padding-right: 16px;
+  padding-bottom: 36px;
+}
+
+.logo{
+  width: 50px;
+  height: 50px;
+  margin-bottom: 100px;
+  margin-top: 50px;
+}
+
+ion-icon {
+  font-size: 26px;
+  color: var(--icncolor);
+}
+
+ion-icon:hover {
+  font-size: 26px;
+  color: var(--maincolor);
+}
+.navicon:hover {
+  color: var(--maincolor);
+}
+
+.homeicon {
+  color: var(--maincolor);
+  font-size: 26px;
+}
+
+.iconholder{
+  padding-bottom: 32px;
+}
+
+.heroarea {
+  display: flex;
+}
+
+.search-bar {
+  display: flex;
+  background: white;
+  border-radius: 10px;
+  padding: 8px 16px;
+  flex-grow: 1;
+
+}
+
+.search-bar input {
+  all: unset;
+  margin-left: 8px;
+  margin-right: 40px;
+
+}
+
+
+.iconis{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+}
+
+.iconis:hover {
+  background-color: var(--seccolor);
+  border-radius: 50%;
+}
+
+.iconselected {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--seccolor);
+  border-radius: 50%;
+  height: 50px;
+
+}
+
+.navwrapper{
+  width: 50px;
+  text-align: center;
+  position: fixed;
+}
